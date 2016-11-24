@@ -1,0 +1,112 @@
+/* Empty. Add your own CSS if you like */
+
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+.scroll {
+    height: 100%;
+}
+ 
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.home{
+  padding: 15% 0 10% 0;
+  text-align: center;
+}
+
+.slider {
+  height: 100%;
+}
+
+.slider-slide {
+  padding: 7% 3% 7% 3% ;
+  color: #000;
+  background-color: #fff;
+  text-align: center;  
+}
+
+#logo {
+  margin: 30px 0px;
+}
+
+#list {
+  width: 170px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+#list ol {
+  margin-top: 30px;
+}
+#list ol li {
+  text-align: left;
+  list-style: decimal;
+  margin: 10px 0px;
+}
+.grad1 {
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */
+}
+.button.button-grad {
+    border-color: transparent;
+    background-color: #ff9402;
+    color: #fff; }
+    .button.button-grad:hover {
+      color: #fff;
+      text-decoration: none; }
+    .button.button-grad.active, .button.button-grad.activated {
+      border-color: #fbaa3c;
+      background-color: #fbaa3c; }
+    .button.button-grad.button-clear {
+      border-color: transparent;
+      background: none;
+      box-shadow: none;
+      color: #ff9402; }
+    .button.button-grad.button-icon {
+      border-color: transparent;
+      background: none; }
+    .button.button-grad.button-outline {
+      border-color: #fbaa3c;
+      background: transparent;
+      color: #ff9402; }
+      .button.button-grad.button-outline.active, .button.button-grad.button-outline.activated {
+        background-color: #ff9402;
+        box-shadow: none;
+        color: #fff; }
+
+.bar.bar-grad {
+    border-color: #ff9402;
+    background-color: #ff9402;
+    background-image: linear-gradient(0deg, #ff9402, #ff9402 50%, transparent 50%);
+    color: #fff; }
+    .bar.bar-grad .title {
+      color: #fff; }
+    .bar.bar-grad.bar-footer {
+      background-image: linear-gradient(180deg, #ff9402, #ff9402 50%, transparent 50%); }
+
+.bar-grad .button {
+  border-color: #0a9dc7;
+  background-color: #11c1f3;
+  color: #fff; }
+  .bar-grad .button:hover {
+    color: #fff;
+    text-decoration: none; }
+  .bar-grad .button.active, .bar-grad .button.activated {
+    border-color: #0a9dc7;
+    background-color: #0a9dc7; }
+  .bar-grad .button.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #fff;
+    font-size: 17px; }
+  .bar-grad .button.button-icon {
+    border-color: transparent;
+    background: none; }
